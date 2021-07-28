@@ -76,6 +76,7 @@
 /* Setion one, courses  */
 
 .musthave{
+    margin-top:240px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -118,4 +119,126 @@
 .courses p{
     width:200px;
     text-align:center;
+    font-size:20px;
+}
+.courseIcon{
+    font-size:40px;
+    color:#B33771;
+}
+/* Payment */
+
+.payment{
+    margin-top:180px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.payment h2 {
+    width:300px;
+    font-size:30px;
+    font-weight:bold;
+    color:#B33771;  
+    text-align: center;
+}
+.payment p{
+    width:400px;
+    text-align:center;
+    font-size:20px;
+}
+.fontawsomeicon{
+    margin-top:20px;
+    font-size:200px;
+    color:#B33771;
+}
+.events{
+    display:flex;
+    margin-top:180px;
+    flex-direction: column;
+}
+.events h2{
+    margin-top:30px;
+    font-size:30px;
+    font-weight:bold;
+    color:#B33771;  
+    text-align: center;
+}
+.eventdetail{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items:center;  
+}
+.texts h2{
+    font-size:22px;
+    font-weight:bold;
+    color:#B33771;  
+    text-align: center;
+}
+.texts p{
+    width:400px;
+    text-align:center;
+    font-size:20px;
+}
+.texts p > span{
+    color:#B33771; 
+}
+/* Medias */
+.media{
+    margin-top:180px;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:641px;
+    background-color:#282828;
+    align-items:center;
+    justify-content: center;
+}
+.media h2{
+    color:#12C6FF;
+    font-size:25px;
+}
+.youtube p > span{
+    font-size:20px;
+    color:white;
+    width:18px;
+}
+.youtube{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.youtubeIcon{
+    font-size:150px;
+    color:rgb(243, 71, 71);
+}
+.others{
+    display: flex;
+    flex-direction: row;
+    padding:8px;
+    align-items: center;
+    justify-content: center;
+}
+.mediaSocial{
+    font-size:30px;
+    color:white;
+}
+
+/* Footer */
+.body footer{
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    text-align:center;
+    font-weight: bold;
 }
